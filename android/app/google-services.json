@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "758606784513",
+    "project_id": "importantevents305",
+    "storage_bucket": "importantevents305.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:758606784513:android:02859ac223ce072a847800",
+        "android_client_info": {
+          "package_name": "com.patryklaskowski.cantwait28"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "758606784513-5aq2fukpgkiu5itfleuag6m5f6gu2o4u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaaMbDacVOE56WZO60pmQE9lqw0TAc5jI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "758606784513-5aq2fukpgkiu5itfleuag6m5f6gu2o4u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
