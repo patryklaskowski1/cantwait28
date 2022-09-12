@@ -19,6 +19,5 @@ class UserProfile extends StatelessWidget {
       ],
       avatarSize: 24,
     );
-    ;
   }
 }
