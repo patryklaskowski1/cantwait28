@@ -15,9 +15,14 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_bloc: ^8.0.1
+  flutter_native_splash: ^2.2.9
   flutterfire_ui: ^0.4.3+8
   fluttertoast: ^8.0.9
   intl: ^0.17.0
+flutter_native_splash:
+  color: "#1092D3"
+  image: images/splash.png
+  
 
 dev_dependencies:
 
