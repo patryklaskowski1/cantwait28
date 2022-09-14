@@ -83,6 +83,11 @@ class _HomePageBody extends StatelessWidget {
                   },
                   onDismissed: (direction) {
                     context.read<HomeCubit>().remove(documentID: itemModel.id);
+                    ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
+                      content: Text('The Event Has Been Deleted'),
+                      backgroundColor: Colors.red,
+                      shape: StadiumBorder(),
+                    ));
                   },
                   child: _ListViewItem(
                     itemModel: itemModel,
