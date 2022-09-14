@@ -59,8 +59,9 @@ class _ListViewItem extends StatelessWidget {
         horizontal: 30,
       ),
       child: Container(
-        decoration: const BoxDecoration(
+        decoration: BoxDecoration(
           color: Colors.black26,
+          borderRadius: BorderRadius.circular(25),
         ),
         child: Column(
           children: [

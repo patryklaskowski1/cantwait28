@@ -118,13 +118,14 @@ class _ListViewItem extends StatelessWidget {
           horizontal: 30,
         ),
         child: Container(
-          decoration: const BoxDecoration(
+          decoration: BoxDecoration(
             color: Colors.black26,
+            borderRadius: BorderRadius.circular(25),
           ),
           child: Column(
             children: [
               Container(
-                height: 80,
+                height: 70,
                 decoration: BoxDecoration(
                   color: Colors.black12,
                   image: DecorationImage(

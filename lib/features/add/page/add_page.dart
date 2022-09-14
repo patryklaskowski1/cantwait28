@@ -53,6 +53,12 @@ class _AddPageState extends State<AddPage> {
                                   _imageURL!,
                                   _releaseDate!,
                                 );
+                            ScaffoldMessenger.of(context)
+                                .showSnackBar(const SnackBar(
+                              content: Text('The Event Has Been Added 🥳'),
+                              backgroundColor: Colors.cyan,
+                              shape: StadiumBorder(),
+                            ));
                           },
                     icon: const Icon(Icons.check),
                   ),
