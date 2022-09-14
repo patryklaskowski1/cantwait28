@@ -22,11 +22,6 @@ class UserProfile extends StatelessWidget {
         centerTitle: true,
         title: const Text('Your Profile'),
       ),
-      children: const [
-        Icon(
-          Icons.add_a_photo,
-        ),
-      ],
     );
   }
 }
