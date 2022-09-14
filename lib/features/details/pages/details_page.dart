@@ -16,7 +16,7 @@ class DetailsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Can\'t Wait 🤩'),
+        title: const Text('My Important Events!'),
       ),
       body: BlocProvider(
         create: (context) => DetailsCubit(ItemsRepository())..getItemWithID(id),
@@ -60,7 +60,7 @@ class _ListViewItem extends StatelessWidget {
       ),
       child: Container(
         decoration: const BoxDecoration(
-          color: Colors.black12,
+          color: Colors.black26,
         ),
         child: Column(
           children: [

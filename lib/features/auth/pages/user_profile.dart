@@ -17,7 +17,16 @@ class UserProfile extends StatelessWidget {
           },
         ),
       ],
-      avatarSize: 24,
+      avatarSize: 120,
+      appBar: AppBar(
+        centerTitle: true,
+        title: const Text('Your Profile'),
+      ),
+      children: const [
+        Icon(
+          Icons.add_a_photo,
+        ),
+      ],
     );
   }
 }
