@@ -55,8 +55,8 @@ class _ListViewItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.symmetric(
-        vertical: 10,
-        horizontal: 30,
+        vertical: 60,
+        horizontal: 20,
       ),
       child: Container(
         decoration: BoxDecoration(
@@ -66,7 +66,7 @@ class _ListViewItem extends StatelessWidget {
         child: Column(
           children: [
             Container(
-              height: 80,
+              height: 290,
               decoration: BoxDecoration(
                 color: Colors.black12,
                 image: DecorationImage(
